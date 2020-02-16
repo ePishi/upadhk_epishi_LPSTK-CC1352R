@@ -1,0 +1,8 @@
+/.jxbrowser-data
+/.metadata
+**/.settings
+**/.launches
+/RemoteSystemsTempFiles
+collector_CC1350_LAUNCHXL_tirtos_ccs/src
+sensor_CC1352R1_LAUNCHXL_tirtos_ccs_syscfg/src
+
