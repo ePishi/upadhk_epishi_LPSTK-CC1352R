@@ -435,14 +435,14 @@ void Lpstk_readGpsSensor(Lpstk_Gps *gps)
         gps->longitude = 0;
         gps->altitude  = 0;
     }
-    /*
+
     printf("=============================================\n");
     printf("   --- Latitude=%f, longitude=%f, altitude=%f\n",
            (float)(int32_t)gps->latitude / 10000000,
            (float)(int32_t)gps->longitude / 10000000,
            (float)gps->altitude / 1000);
     printf("=============================================\n");
-    */
+
 }
 
 void Lpstk_shutdownHumidityTempSensor(void)

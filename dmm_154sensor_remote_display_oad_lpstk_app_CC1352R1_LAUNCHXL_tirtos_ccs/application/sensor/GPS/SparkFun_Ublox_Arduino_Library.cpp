@@ -2593,7 +2593,7 @@ int32_t SFE_UBLOX_GPS::getLatitude(uint16_t maxWait)
     getPVT(maxWait);
   moduleQueried.latitude = false; //Since we are about to give this to user, mark this data as stale
   moduleQueried.all = false;
-  printf("Latitude: %ldn\n", latitude);
+  //printf("Latitude: %ldn\n", latitude);
   return (latitude);
 }
 
@@ -2605,7 +2605,7 @@ int32_t SFE_UBLOX_GPS::getLongitude(uint16_t maxWait)
     getPVT(maxWait);
   moduleQueried.longitude = false; //Since we are about to give this to user, mark this data as stale
   moduleQueried.all = false;
-  printf("Longitude: %ldn\n", longitude);
+  //printf("Longitude: %ldn\n", longitude);
   return (longitude);
 }
 
@@ -2616,7 +2616,7 @@ int32_t SFE_UBLOX_GPS::getAltitude(uint16_t maxWait)
     getPVT(maxWait);
   moduleQueried.altitude = false; //Since we are about to give this to user, mark this data as stale
   moduleQueried.all = false;
-  printf("Latitude: %ldn\n", latitude);
+  //printf("Latitude: %ldn\n", latitude);
   return (altitude);
 }
 
@@ -2629,7 +2629,7 @@ int32_t SFE_UBLOX_GPS::getAltitudeMSL(uint16_t maxWait)
     getPVT(maxWait);
   moduleQueried.altitudeMSL = false; //Since we are about to give this to user, mark this data as stale
   moduleQueried.all = false;
-  printf("AltitudeMSL: %ldn\n", altitudeMSL);
+  //printf("AltitudeMSL: %ldn\n", altitudeMSL);
   return (altitudeMSL);
 }
 
